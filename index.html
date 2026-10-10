@@ -1,66 +1,40 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title>Kerala Game Hub</title>
+    <title>Tic Tac Toe</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Game Hub</div>
-        <nav>
-            <a href="#">Home </a>
-            <a href="#">About </a>
-            <a href="#">Developers </a>
-            <a href="#">Hot games </a>
-        </nav>
-        <div class="search">
-            <span class="search-icon">🔍</span>
-            <input type="text" placeholder="Search games...">
+    
+
+<a href="../../index.html" class="home-btn">← Home</a>
+
+
+<div class="game"> 
+    <h1>Tic Tac Toe</h1>
+    <div class="board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <div class="popup" id="popup">
+        <div class="popup-box">
+            <h2 id="popup-title">X Wins!</h2>
+            <button id="reset-btn">Play Again</button>
         </div>
-    </header>
-<main>
-    <section class="hero">
-        <h1>Welocme to Kerala Game Hub</h1>
-        <p>play.create.repeat</p>
-        <button>Explore new games</button>
-    </section>
-    <section class="games">
-        <h2>hot games </h2>
-        <div class="game-container">
-            <div class="game-card">
-            <div class="game-image">🎮</div>
-        
-        <h3>Tic Tac Toe</h3>
-        <p>Tic-tac-toe (also known as noughts and crosses  or Xs and Os) <br> is a classic paper-and-pencil game for two players <br>who take turns marking the spaces in a three-by-three grid with an X or an O</p>
-        
-        <a href="./games/tic%20tac%20toe/index.html" class="play-btn">
-            <button>Play Now</button>
-        </a>
-
-
-
-
-
-
-
-
     </div>
-      <div class="game-card">
-            <div class="game-image">🧩</div>
-        
-        <h3>game 2 </h3>
-        <p>not defined </p>
-        <button>coming soon </button>
-    </div>
-      <div class="game-card">
-            <div class="game-image">🧩</div>
-        
-        <h3>Game 3</h3>
-        <p>not defined </p>
-        <button>coming soon</button>
-    </div>
-    </div>
-    </section>
-</main>
+   <div class="game-modes">
+    <button id="computer-mode">Play vs Computer</button>
+    <button id="two-player-mode">2 Players</button>
+</div>
+
+</div>
 <script src="script.js"></script>
 </body>
 </html>
